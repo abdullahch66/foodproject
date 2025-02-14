@@ -1,0 +1,12 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body{
+   background: linear-gradient(rgb(188, 184, 184),rgb(43, 39, 39)); 
+}
+
+#color{
+   background: linear-gradient(rgb(227, 226, 226),rgb(73, 71, 71));
+}
+
