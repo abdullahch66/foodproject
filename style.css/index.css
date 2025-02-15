@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Convergence&family=Inder&family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 70px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 10px 90px;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 20px 46px 1px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links ul li {
+    margin: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.login-btn {
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    transform: scale(1.1);
+}
+
+.sign-up-btn {
+    cursor: pointer;
+    background-color: #E94339;
+    color: #fff;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    margin-left: 25px;
+    border: #E94339;
+    transition: 0.3s;
+}
+
+.sign-up-btn:hover {
+    background-color: #E94339;
+    transform: scale(1.1);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.hero-img {
+    width: 340px;
+    background-color: #F2EBDA;
+    border-radius: 50px;
+    margin-right: 100px;
+    animation: hero-img-animation 9s ease 0s infinite;
+    cursor: pointer;
+}
+
+.hero-section-left h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.hero-section-left p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.order-now-input input {
+    width: 90%;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #F6F6F6;
+    padding: 0 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.order-now-input {
+    position: relative;
+    margin: 29px 0;
+}
+
+.order-now-input button {
+    cursor: pointer;
+    position: absolute;
+    left: 73.3%;
+    top: 4%;
+    background-color: #FF5331;
+    border-radius: 50px;
+    padding: 13px 15px;
+    border: none;
+    color: #F2EBDA;
+    transition: 0.3s;
+}
+
+.order-now-input button:hover {
+    background-color: #E94339;
+    transform: scale(1.1);
+}
+
+.download-btns {
+    display: flex;
+}
+
+.download-btns button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.app-store-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.app-store {
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Food Cards */
+.food-cards {
+    display: flex;
+    padding: 10px 0;
+}
+
+.food-deals-cards {
+    display: flex;
+    margin: 140px 30px;
+}
+
+.food-deals-cards:hover {
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    border-radius: 28px;
+    padding: 40px;
+    margin: 0 17px;
+    height: 95px;
+}
+
+.food-item {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 14px;
+}
+
+.card span {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+}
+
+.delivery-card {
+    background: #FAFAFA;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    margin-left: 7%;
+    height: 300px;
+}
+
+.delivery-card h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.free-delivery {
+    color: #009B00;
+}
+
+.bike-div {
+    margin-left: 120px;
+    justify-content: flex-end;
+    padding-top: 13px;
+}
+
+.bike-div img {
+    margin-top: 25px;
+}
+
+.delivery-card:hover {
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+/* How to Order */
+.second-section-card {
+    position: relative;
+}
+
+.div-for-heading {
+    font-size: 29px;
+}
+
+.div-for-display {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.div-for-card {
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    right: 15px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    padding: 40px;
+    width: 86px;
+    height: 125px;
+}
+
+.div-for-card img {
+    margin-left: 15px;
+}
+
+.div-for-card:hover {
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* Clients */
+.div-for-space {
+    margin-top: 280px;
+}
+
+.our-clients {
+    font-size: 44px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.para-text {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.vector-para {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    line-height: 34px;
+    margin-top: 10px;
+}
+
+.text h2 {
+    font-size: 27px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer-btns {
+    display: flex;
+}
+
+.pizza-img {
+    margin: 100px 0;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+    padding: 10px;
+}
+
+.footer-items li {
+    list-style: none;
+}
+
+.copy-right-section {
+    margin: 0 180px;
+}
+
+.copy-right {
+    display: flex;
+    color: #F6F6F6;
+    align-items: center;
+}
+
+.terms-list {
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    margin: 70px 100px;
+}
+
+/* Responsive Design for Mobile & Tablets */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 50px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .hero-img {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .food-cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .food-deals-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    .delivery-card {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .div-for-display {
+        flex-direction: column;
+    }
+
+    .div-for-card {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 70%;
+    }
+
+    .food-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-deals-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .order-now-input {
+        width: 90%;
+    }
+
+    .div-for-card {
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section-left h1 {
+        font-size: 35px;
+    }
+
+    .hero-section-left p {
+        font-size: 12px;
+    }
+
+    .order-now-input input {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .order-now-input button {
+        padding: 10px 12px;
+    }
+
+    .app-store-btn {
+        padding: 10px;
+    }
+
+    .food-deals-cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
